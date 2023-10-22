@@ -1,0 +1,68 @@
+/*Section datos de contacto*/
+
+.datos-contactos {
+    display: flex;
+    padding: 15px;
+    margin: 0;
+    background-color: #f2dbb5;
+}
+
+.iconos {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tex {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Sección de Consultas*/
+
+.consultas {
+    display: flex;
+    padding: 10px;
+    background-color: #f2dbb5;
+}
+
+.info-mensaje {
+    display: block;
+    margin-left: 850px;
+    margin-bottom: 110px;
+    background-color: rgba(78, 1, 1, 0.842);
+}
+
+.info-mensaje p {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+
+.info-mensaje button {
+    display: flex;
+    float: right;
+}
+
+.nombreApe {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.telefono-email {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.mensaje {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}

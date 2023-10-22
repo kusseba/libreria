@@ -1,0 +1,16 @@
+.estanteria-romances {
+    background-repeat: no-repeat;
+    background-color: rgb(206, 17, 49);
+    background-size: cover;
+}
+
+.libros-muestra-romances {
+    display: flex;
+    margin-left: 500px;
+}
+
+.libros-muestra-romances li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}

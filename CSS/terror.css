@@ -1,0 +1,34 @@
+/*Fondo de la página*/
+
+
+.estanteria-terror {
+    background-repeat: no-repeat;
+    background-color: rgb(24, 0, 0);
+    background-size: cover;
+}
+
+.libros-muestra-terror {
+    display: flex;
+    margin-left: 500px;
+}
+
+.libros-muestra-terror li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+/*
+<div class="card" style="width: 20rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Precio</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Agregar al carrito</a>
+              </div>
+            </div>
+*/

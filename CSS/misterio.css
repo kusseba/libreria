@@ -1,0 +1,16 @@
+.estanteria-misterio {
+    background-repeat: no-repeat;
+    background-color: rgb(102, 100, 100);
+    background-size: cover;
+}
+
+.libros-muestra-misterio {
+    display: flex;
+    margin-left: 500px;
+}
+
+.libros-muestra-misterio li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}

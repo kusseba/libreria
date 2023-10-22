@@ -1,0 +1,109 @@
+/*Principal*/
+
+/*Body*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 60px;
+    
+}
+
+/*Barra de Busqueda*/
+
+/*Barra de Navegación*/
+.navbar {
+    background-color: #9B3D3F;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    color: #fff2ba;
+    text-decoration: solid;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    list-style: none;
+}
+
+
+.dropdown-menu li {
+    margin: 5px 0;
+}
+
+.dropdown-menu a {
+    color: #825a16
+}
+
+
+/*Literatura Universal*/
+
+
+.lit-universal {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2dbb5; 
+}
+
+
+/*Libros más vendidos*/
+
+.mas-vendidos {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2dbb5;
+}
+
+/*Footer CSS*/
+
+footer {
+    display: flex;
+    background-color: rgb(73, 72, 72);
+    margin: 0;
+}
+
+
+.personal-datos p {
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    color: rgb(224, 214, 214);
+}
+
+.creacion-datos p {
+    position: relative;
+    left: 900px;
+    padding: 5px;
+    margin: 0;
+    color: rgb(224, 214, 214);
+}

@@ -1,0 +1,16 @@
+.estanteria-mangas {
+    background-repeat: no-repeat;
+    background-color: rgb(253, 110, 54);
+    background-size: cover;
+}
+
+.libros-muestra-mangas {
+    display: flex;
+    margin-left: 500px;
+}
+
+.libros-muestra-mangas li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}

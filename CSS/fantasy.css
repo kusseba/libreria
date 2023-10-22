@@ -1,0 +1,16 @@
+.estanteria-fantasy {
+    background-repeat: no-repeat;
+    background-color: rgb(193, 138, 245);
+    background-size: cover;
+}
+
+.libros-muestra-fantasia {
+    display: flex;
+    margin-left: 500px;
+}
+
+.libros-muestra-fantasia li {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}
